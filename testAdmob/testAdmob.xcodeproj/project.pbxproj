@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A9CAC9C607C80B55F64C9A6 /* Pods_testAdmob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81904DA75271524125FA350 /* Pods_testAdmob.framework */; };
 		D91F55241E28CC0F00638B17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F55231E28CC0F00638B17 /* AppDelegate.swift */; };
 		D91F55261E28CC0F00638B17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F55251E28CC0F00638B17 /* ViewController.swift */; };
 		D91F55291E28CC0F00638B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91F55271E28CC0F00638B17 /* Main.storyboard */; };
@@ -24,6 +25,9 @@
 		D91F552D1E28CC0F00638B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D91F55301E28CC0F00638B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D91F55321E28CC0F00638B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6BA1168A03F66CB1AF3C12 /* Pods-testAdmob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testAdmob.release.xcconfig"; path = "Pods/Target Support Files/Pods-testAdmob/Pods-testAdmob.release.xcconfig"; sourceTree = "<group>"; };
+		F81904DA75271524125FA350 /* Pods_testAdmob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testAdmob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB71D7BF2B47ABBF678A0211 /* Pods-testAdmob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testAdmob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testAdmob/Pods-testAdmob.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9CAC9C607C80B55F64C9A6 /* Pods_testAdmob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAEED8CBCB79BD4309ADDF32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F81904DA75271524125FA350 /* Pods_testAdmob.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9E38993B0FB55F77D740647 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB71D7BF2B47ABBF678A0211 /* Pods-testAdmob.debug.xcconfig */,
+				EB6BA1168A03F66CB1AF3C12 /* Pods-testAdmob.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D91F55171E28CC0F00638B17 = {
 			isa = PBXGroup;
 			children = (
 				D91F55221E28CC0F00638B17 /* testAdmob */,
 				D91F55211E28CC0F00638B17 /* Products */,
+				C9E38993B0FB55F77D740647 /* Pods */,
+				BAEED8CBCB79BD4309ADDF32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D91F55351E28CC0F00638B17 /* Build configuration list for PBXNativeTarget "testAdmob" */;
 			buildPhases = (
+				F416A6DE51BACE613482B18C /* [CP] Check Pods Manifest.lock */,
 				D91F551C1E28CC0F00638B17 /* Sources */,
 				D91F551D1E28CC0F00638B17 /* Frameworks */,
 				D91F551E1E28CC0F00638B17 /* Resources */,
+				E2A59D61FA0E31B4EEB12E4F /* [CP] Embed Pods Frameworks */,
+				D02405CEE7F1DE756EB2710D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D02405CEE7F1DE756EB2710D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testAdmob/Pods-testAdmob-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A59D61FA0E31B4EEB12E4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testAdmob/Pods-testAdmob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F416A6DE51BACE613482B18C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D91F551C1E28CC0F00638B17 /* Sources */ = {
@@ -262,6 +337,7 @@
 		};
 		D91F55361E28CC0F00638B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB71D7BF2B47ABBF678A0211 /* Pods-testAdmob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testAdmob/Info.plist;
@@ -274,6 +350,7 @@
 		};
 		D91F55371E28CC0F00638B17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6BA1168A03F66CB1AF3C12 /* Pods-testAdmob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testAdmob/Info.plist;

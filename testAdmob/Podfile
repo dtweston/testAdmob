@@ -1,0 +1,12 @@
+
+platform :ios, '9.0'
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+
+def base_pods
+    pod 'GoogleAds-IMA-iOS-SDK-For-AdMob'
+end
+
+target 'testAdmob' do
+  base_pods
+end
