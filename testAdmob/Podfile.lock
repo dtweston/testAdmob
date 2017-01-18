@@ -1,15 +1,16 @@
 PODS:
-  - Google-Mobile-Ads-SDK (7.16.0)
+  - Google-Mobile-Ads-SDK (7.0.0)
   - GoogleAds-IMA-iOS-SDK-For-AdMob (3.3.1):
     - Google-Mobile-Ads-SDK (~> 7.0)
 
 DEPENDENCIES:
+  - Google-Mobile-Ads-SDK (= 7.0)
   - GoogleAds-IMA-iOS-SDK-For-AdMob
 
 SPEC CHECKSUMS:
-  Google-Mobile-Ads-SDK: 92dff0e9ce1cfdfe640d9d80ab86d5e4371e478f
+  Google-Mobile-Ads-SDK: 434b97467d33c64db4767db89e51f49aed9fac08
   GoogleAds-IMA-iOS-SDK-For-AdMob: b209bbfd249eadb308af759b9d5ca3ddca833e5a
 
-PODFILE CHECKSUM: ca226faa3633f265f5eb8611560a84d6b74440ef
+PODFILE CHECKSUM: 9b2b7d0b52e87328effa7199b4ccd57de6166c51
 
 COCOAPODS: 1.1.1

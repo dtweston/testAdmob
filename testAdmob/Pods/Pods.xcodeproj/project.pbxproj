@@ -16,6 +16,7 @@
 		17241D9D4050ED39DAEB4F786BB685D2 /* Pods-testAdmob.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-testAdmob.modulemap"; sourceTree = "<group>"; };
 		1CD5CD7D4EC7441BF617A21A44D9F4BA /* Pods-testAdmob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testAdmob.release.xcconfig"; sourceTree = "<group>"; };
 		23B9DC3AF89CE6AAD055BC76F4C8FF37 /* Pods-testAdmob-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testAdmob-umbrella.h"; sourceTree = "<group>"; };
+		2F0FC2C539009737C7890055998A8669 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.0.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		653FAB697B3335ED2C36718593997F30 /* Pods-testAdmob-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testAdmob-acknowledgements.plist"; sourceTree = "<group>"; };
 		74FB199C7C4FB932655B0E41F615A867 /* Pods-testAdmob-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testAdmob-acknowledgements.markdown"; sourceTree = "<group>"; };
 		886AFD23A0F3246DF3559CF2971884B7 /* Pods_testAdmob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testAdmob.framework; path = "Pods-testAdmob.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,7 +28,6 @@
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D1885938DE2B88D72CA4365FEEFEB587 /* Pods-testAdmob-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testAdmob-frameworks.sh"; sourceTree = "<group>"; };
 		E8A076D7CCF5CF47A0684F44673E3600 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F18FA395A4E0867FBCF9A7E28DA36C55 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		1E0C2F5CF21CFAA46CA8A18F0D006326 /* Google-Mobile-Ads-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				55BEC8C52B6734D68AE8F77465F72A4D /* Frameworks */,
+				76D1BE3D0F84A15DC22207AD800F4FAE /* Frameworks */,
 			);
 			name = "Google-Mobile-Ads-SDK";
 			path = "Google-Mobile-Ads-SDK";
@@ -86,20 +86,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		55BEC8C52B6734D68AE8F77465F72A4D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F18FA395A4E0867FBCF9A7E28DA36C55 /* GoogleMobileAds.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		76D1BE3D0F84A15DC22207AD800F4FAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FC2C539009737C7890055998A8669 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {

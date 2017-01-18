@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## Google-Mobile-Ads-SDK
 
-Copyright 2016 Google
+Copyright 2011 Google Inc. All Rights Reserved.
 
 ## GoogleAds-IMA-iOS-SDK-For-AdMob
 
